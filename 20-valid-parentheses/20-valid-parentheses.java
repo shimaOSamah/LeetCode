@@ -18,7 +18,6 @@ class Solution {
                     return false;
                 
                 if(c - st.peek() <= 2 && c - st.peek() > 0){
-                    System.out.println(c - st.peek());
                     st.pop();
                 }
                 
